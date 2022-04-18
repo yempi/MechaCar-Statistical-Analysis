@@ -3,8 +3,14 @@
 <img width="828" alt="Deliverable 1" src="https://user-images.githubusercontent.com/83614893/163745247-8b84bb9c-64c7-4c6d-8892-5fafbcccba95.png">
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+  - vehicle legth
+  - vehicle ground clearance
+
 - Is the slope of the linear model considered to be zero? Why or why not?
+  - According to the analysis, p-value is equal to 5.32e-11 therefore it can be concluded that the slope is not zero because the p-value is less than 0.05
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+  - Ther-squared value is 0.71 meaning that 71% of all mpg predictions will be correct when using this model, this means that we can conclude that this model predicts MechaCar prototypes effectively.
 
 ### Summary Statistics on Suspension Coils
 <img width="337" alt="total_summary" src="https://user-images.githubusercontent.com/83614893/163745288-166a568c-889e-4813-bfb6-f90fbb058586.png">
