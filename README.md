@@ -71,16 +71,16 @@ To make a comparison between MechaCar against its competition we can collect sig
 - Resale Value
 - Maintenance Cost
 
-** Null Hypothesis 
+**Null Hypothesis**
 - when a comparison is done, the statistical difference between MechaCar metrics and the competitions' metrics is zero.
 
-** Alternative Hypothesis
+**Alternative Hypothesis**
 - the difference between the comparison from MechaCar's analysis vs the competitions' vary significantly.
 
-** Statistical Test: 
+**Statistical Test**
 - one-tailed t-tests, to observe the results from a higher or lower preference.
 
-** Data needed to run statistical test:
+**Data needed to run statistical test**
   - Cost
   - Fuel efficiency
   - Safety Rating 
