@@ -15,17 +15,39 @@
 ### Summary Statistics on Suspension Coils
 <img width="337" alt="total_summary" src="https://user-images.githubusercontent.com/83614893/163745288-166a568c-889e-4813-bfb6-f90fbb058586.png">
 
+> total_summary table
+
 <img width="475" alt=" lot_summary" src="https://user-images.githubusercontent.com/83614893/163745305-ed0e8738-05e5-4906-a3e3-b7322ed3e927.png">
 
+> lot_summary table
+
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+  - Total_Summary table:
+    - mean: 1498.78 
+    - variance: 62.2936
+    - std deviation: 7.8926
+    - median: 1452-1542
+    
+Variance of the PSI sample distribution is 62.2936 which is less than the limit of 100 pounds psi, concluding that it is well between limits. 
+
+Lot 1 and 2 are acceptably under limits, however, lot 3 is showing a larger variance (170.29) in performance and consistency.
 
 ### T-Tests on Suspension Coils 
 <img width="405" alt="all-lots" src="https://user-images.githubusercontent.com/83614893/163745350-f8dfa208-ad25-47da-84fd-22a52e9dcf78.png">
 
+> All lots
+
 <img width="492" alt="lot-1" src="https://user-images.githubusercontent.com/83614893/163745358-2046d29b-ecbc-49ed-bd1e-36221da4da90.png">
+
+> Lot 1
 
 <img width="487" alt="lot-2" src="https://user-images.githubusercontent.com/83614893/163745368-06179e3f-72a7-4fe4-aac1-9641a2d8a867.png">
 
+> Lot 2
+
 <img width="490" alt="lot-3" src="https://user-images.githubusercontent.com/83614893/163745379-81513d44-a94c-42a2-805a-fcb1a86c6538.png">
+
+> Lot 3
 
 - summarize interpretations and findings
