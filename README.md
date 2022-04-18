@@ -29,25 +29,35 @@
     - std deviation: 7.8926
     - median: 1452-1542
     
-Variance of the PSI sample distribution is 62.2936 which is less than the limit of 100 pounds psi, concluding that it is well between limits. 
+`Variance of the PSI sample distribution is 62.2936 which is less than the limit of 100 pounds psi, concluding that it is well between limits.` 
 
-Lot 1 and 2 are acceptably under limits, however, lot 3 is showing a larger variance (170.29) in performance and consistency.
+`Lot 1 and 2 are acceptably under limits, however, lot 3 is showing a larger variance (170.29) in performance and consistency.`
 
 ### T-Tests on Suspension Coils 
 <img width="405" alt="all-lots" src="https://user-images.githubusercontent.com/83614893/163745350-f8dfa208-ad25-47da-84fd-22a52e9dcf78.png">
 
-> All lots
+- mean: 1498.78
+- p-value: 0.06
+
+  - the mean of all three lots is similar to the presumed population mean of 1500.
+  - not enough evidence to reject null hypothesis.
 
 <img width="492" alt="lot-1" src="https://user-images.githubusercontent.com/83614893/163745358-2046d29b-ecbc-49ed-bd1e-36221da4da90.png">
 
-> Lot 1
+- mean: 1500
+- p-value: 1
+  - not enough evidence to reject null hypothesis, as there is no significant difference between the observed sample mean and the presumed population mean
 
 <img width="487" alt="lot-2" src="https://user-images.githubusercontent.com/83614893/163745368-06179e3f-72a7-4fe4-aac1-9641a2d8a867.png">
 
-> Lot 2
+- mean: 1500.02
+- p-value: 0.61
+  - not enough evidence to reject null hypothesis
 
 <img width="490" alt="lot-3" src="https://user-images.githubusercontent.com/83614893/163745379-81513d44-a94c-42a2-805a-fcb1a86c6538.png">
 
-> Lot 3
+- mean: 1496.14 
+- p-value: 0.04
+  - we can reject the null hypothesis because the p-value is lower than the common significance level of 0.05
 
-- summarize interpretations and findings
+Suspension coils from lot 3 must be thoroughly revised as they can be of low quality and prone to failing.
