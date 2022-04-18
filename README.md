@@ -50,7 +50,7 @@
 
 <img width="487" alt="lot-2" src="https://user-images.githubusercontent.com/83614893/163745368-06179e3f-72a7-4fe4-aac1-9641a2d8a867.png">
 
-- mean: 1500.02
+- mean: 1500.2
 - p-value: 0.61
   - not enough evidence to reject null hypothesis
 
@@ -71,24 +71,21 @@ To make a comparison between MechaCar against its competition we can collect sig
 - Resale Value
 - Maintenance Cost
 
-* Null Hypothesis: when a comparison is done, the statistical difference between MechaCar metrics and the competitions' metrics is zero.
-* Alternative Hypothesis: the difference between the comparison from MechaCar's analysis vs the competitions' vary significantly.
+** Null Hypothesis 
+- when a comparison is done, the statistical difference between MechaCar metrics and the competitions' metrics is zero.
 
-* Statistical Test: one-tailed t-tests, to observe the results from a higher or lower preference.
+** Alternative Hypothesis
+- the difference between the comparison from MechaCar's analysis vs the competitions' vary significantly.
 
-* Data needed to run statistical test:
+** Statistical Test: 
+- one-tailed t-tests, to observe the results from a higher or lower preference.
+
+** Data needed to run statistical test:
   - Cost
   - Fuel efficiency
   - Safety Rating 
   - Resale Value
   - Maintenance Cost
   - Horsepower
-
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
-
-
-
 
 
