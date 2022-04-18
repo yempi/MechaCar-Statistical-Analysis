@@ -30,5 +30,25 @@ total_summary <- Suspension %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=v
 lot_summary <-Suspension %>% group_by(Manufacturing_Lot)%>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI))
 
 
+# **********************************************************************************************************************************
 
 
+# Deliverable 3: T-tests on Suspension Coils 
+# ---------------------------------------------------
+# determine with t.test() if the PSI across all manufacturing lots is statistically different 
+# from the population mean of 1500 pounds per in2
+
+# All lots
+t.test(Suspension$PSI,mu=1500)
+
+# determine with subset() if the PSI across all manufacturing lots is statistically different 
+# from the population mean of 1500 pounds per in2
+
+# Lot 1
+t.test(subset(Suspension,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+
+# Lot 2
+t.test(subset(Suspension,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+ 
+# Lot 3
+t.test(subset(Suspension,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
