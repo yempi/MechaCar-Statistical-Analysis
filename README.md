@@ -61,3 +61,34 @@
   - we can reject the null hypothesis because the p-value is lower than the common significance level of 0.05
 
 Suspension coils from lot 3 must be thoroughly revised as they can be of low quality and prone to failing.
+
+### Study Design: MechaCar vs Competition
+To make a comparison between MechaCar against its competition we can collect significant metrics that influences the decision between two cars some of them being: 
+- Fuel efficiency
+- Cost
+- Horsepower
+- Safety Rating
+- Resale Value
+- Maintenance Cost
+
+* Null Hypothesis: when a comparison is done, the statistical difference between MechaCar metrics and the competitions' metrics is zero.
+* Alternative Hypothesis: the difference between the comparison from MechaCar's analysis vs the competitions' vary significantly.
+
+* Statistical Test: one-tailed t-tests, to observe the results from a higher or lower preference.
+
+* Data needed to run statistical test:
+  - Cost
+  - Fuel efficiency
+  - Safety Rating 
+  - Resale Value
+  - Maintenance Cost
+  - Horsepower
+
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
+
+
+
+
+
